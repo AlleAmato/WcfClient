@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="90575ce8-eb1a-4f75-a989-a349f9083dbf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51346/AthletesService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AthletesService.disco" MetadataType="Disco" ID="bc43a132-a849-4e0f-a7c2-61054d199f05" SourceId="1" SourceUrl="http://localhost:51346/AthletesService.svc?disco" />
+    <MetadataFile FileName="AthletesService.wsdl" MetadataType="Wsdl" ID="fff59c12-4f5b-42d4-b103-34765f933206" SourceId="1" SourceUrl="http://localhost:51346/AthletesService.svc?wsdl" />
+    <MetadataFile FileName="AthletesService.xsd" MetadataType="Schema" ID="9e1aab22-8e39-46a8-a218-5e99e880b10e" SourceId="1" SourceUrl="http://localhost:51346/AthletesService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AthletesService1.xsd" MetadataType="Schema" ID="876211a9-c000-4e09-9154-3482674590b5" SourceId="1" SourceUrl="http://localhost:51346/AthletesService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AthletesService2.xsd" MetadataType="Schema" ID="85028422-ac92-4679-9786-45eaf727d15c" SourceId="1" SourceUrl="http://localhost:51346/AthletesService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
